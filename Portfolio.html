@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Kshitij" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 0, 109);
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 1px -100px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(0, 255, 255);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><font  face="Algerian" color="Red">MY Favourite Things</font><h1>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <h4><font size="15",  face="Algerian", color="Red">MY Favourite dish</font><h4>
+        <h5><font size="13", face="Cooper Black">Chicken Tandoori</font> </h5>
+      <img src="chicken.png" alt="Chicken Tandoori"width="100%" height="100%">
+      <p>. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content" >     
+       <h4><font size="40px", face="Algerian"  color="Red">My Favourite Sport</font> </h4>
+       <h4><font size="40px", face="Cooper Black">Football</font> </h4>
+    <img src="download.jpg" alt="Football" style="width:100%" >
+      <p> </p>
+    </div>  </div>
+  <div class="column">
+    <div class="content">
+      <h4><font size="15", face="Algerian"  color="Red">My Favourite Player</font> </h4>
+      <h5><font size="13", face="Cooper Black">Cristano Ronaldo</font> </h5>
+      <img src="CR7.png" lt="" style="width:100%">
+      <p></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="" alt="" style="width:100%">
+    <h4><font size="15", face="Algerian"  color="Red">My Favourite Car</font> </h4>
+    <h5><font size="7", face="Cooper Black">Classic Aston Martin DB11</font> </h5>
+      <img src="aston martin.png" lt="" style="width:100%">
+      <p></p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="" alt="" style="width:100%">
+  <h3></h3>
+  <p></p>
+  <p></p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
